@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'
+    ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+article {
+  display: inline-block;
+  width: 60%;
+  padding: 0px 0px 0px 5%;
+
+}
+
+#logo {
+  text-align: right;
+  display: block;
+  width: 22%;
+}
+
+.instructions {
+
+  margin-top: 0px;
+}
+
+#instructions_button {
+
+}
+
+#reset_button {
+  float: right;
+  padding: 30px 30px 30px 30px;
+  background-color: rgb(236, 55, 55);
+  border: none;
+}
+
+.end_float {
+  clear: both;
+}
+
+#deck_back {
+  width: 25%;
+}
+
+.inline_settings {
+  float: left;
+}
+
+#played_cards {
+  float: left;
+  width: 25%;
+  /* padding-left: 30%; */
+  /* height: 50vw; */
+  /* padding: 1px; */
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 2px 0px 2px;
+
+}
+
+#deck {
+  float: left;
+  margin: 60px 0px 0px 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 0px 2px 0px;
+}
+
+#whole_deck {
+  padding: 40px 0px 0px 0px;
+}
+
+#card_form {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.cards {
+  height: 50px;
+  display: block;
+  font-size: xx-large;
+
+}
+
+.card_images {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  /* width: 5%; */
+}
+
+.list_names {
+  margin: 0px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 0px 2px 0px;
+}
+
+
+nav {
+  display: inline-block;
+  width: 20%;
+  height: 100vw;
+  /* padding: 1px; */
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 2px 0px 0px;
+  background-color: white;
+
+}
+nav div {
+  display: block;
+  text-align: right;
+  padding: 10%;
+  margin-left: auto;
+  width: 40%;
+  padding: 5%;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(88, 88, 88);
+  border-width: 2px 0px 0px 0px;
+
+}
+
+.last_link {
+  border-width: 2px 0px 2px 0px;
+}
+
+footer {
+  text-align: center;
+}
