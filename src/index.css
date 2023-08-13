@@ -3,6 +3,7 @@ body {
   font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'
     ;
+  font-size: calc(2px + (29) * (200vw - 300px) / 6000);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -36,7 +37,7 @@ article {
 
 #reset_button {
   float: right;
-  padding: 30px 30px 30px 30px;
+  padding: 5% 5% 5% 5%;
   background-color: rgb(236, 55, 55);
   border: none;
 }
@@ -46,7 +47,7 @@ article {
 }
 
 #deck_back {
-  width: 25%;
+  width: 30%;
 }
 
 .inline_settings {
@@ -55,26 +56,29 @@ article {
 
 #played_cards {
   float: left;
-  width: 25%;
+  width: 28%;
   /* padding-left: 30%; */
   /* height: 50vw; */
   /* padding: 1px; */
+  min-height: 250px;
   border-style: solid;
   border-color: black;
-  border-width: 0px 2px 0px 2px;
+  border-width: 0px 2px 2px 2px;
 
 }
 
 #deck {
   float: left;
-  margin: 60px 0px 0px 20px;
+  width: 65%;
+  margin: 10% 0px 0px 4%;
+  min-height: 250px;
   border-style: solid;
   border-color: black;
-  border-width: 2px 0px 2px 0px;
+  border-width: 2px 2px 2px 2px;
 }
 
 #whole_deck {
-  padding: 40px 0px 0px 0px;
+  padding: 5% 0px 0px 0px;
 }
 
 #card_form {
@@ -85,16 +89,33 @@ article {
 
 .cards {
   height: 50px;
-  display: block;
-  font-size: xx-large;
+  width: 98%;
+  padding: 0px 1% 0px 1%;
+  font-size: 1.5em;
+  display: inline-flex;
+  justify-content: space-between;
 
 }
 
+.deck_cards {
+  width: 45%;
+
+}
+
+.line_break {
+  padding-left: 7%;
+}
+
 .card_images {
-  height: 50px;
+  text-align: right;
+  height: calc(10px + (24) * (200vw - 300px) / 1700);
   line-height: 50px;
   vertical-align: middle;
   /* width: 5%; */
+}
+
+.image_place {
+  text-align: right;
 }
 
 .list_names {
